@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: larger;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: #f4623a;
+}
+header{
+    top:  0;
+    width: 100%;
+    height: 800px;
+    background-image: url('https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items:last baseline;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+}
+header div{
+    width: 700px;
+    height: 450px;
+    text-align: center;
+    color: #f4623a;
+}
+header button{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #f4623a;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+}
+header a:hover{
+    color: #d3a497;
+}
+section{
+    width: 100%;
+    height: 400px;
+    background-color: #f4623a;
+    position: absolute;
+    top: 800px;
+    display: flex;
+    align-items:last baseline;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+}
+section div{
+    width: 700px;
+    height: 350px;
+    text-align: center;
+    color: white;
+}
+section button{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+}
+section a{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+}
+section a:hover{
+    color: #d3a497;
+}
+.div1{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items:last center;
+    justify-content: start;
+    position: absolute;
+    z-index: 2;
+}
+.div11{
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+.div11 div{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.div2{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 1900px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: space-between;
+    z-index: 2;
+    gap: 30px;
+}
+.div2 div{
+    width: 450px;
+    height: 250px;
+}
+.div2 div a{
+    z-index: 2;
+}
+.div2 div img{
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div2 a:hover{
+    content: "CATEGORY";
+    background-color: #f4623a;
+    opacity: 0.4;
+}
+.div3{
+    position: absolute;
+    top: 2450px;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(13, 3, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div4{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 2800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.div4 div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+input{
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+}
+footer{
+    position: absolute;
+    top: 3500px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(41, 41, 44);
+    color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
